@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*.home-header {
+    min-height: 15%;
+    background-color: #323F4F;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.header-icon {
+    width: 10%;
+}*/
+
+.home-header {
+    background-image: url(./icons/cv-icon1.jpg);
+    background-color: #323F4F;
+    min-height: 15%; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.header-icon {
+    width: 10%;
+}
+
+.title-header-section {
+    width: 80%;
+    height: 100%;
+    background-color: aqua;
+    float: right;
+}
