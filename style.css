@@ -1,40 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap');
+
+/*
+
+font-family: 'Montserrat', sans-serif;
+
+*/
+
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*.home-header {
-    min-height: 15%;
+header {
     background-color: #323F4F;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    min-height: 80px;
+    padding: 80px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 4em;
+    font-weight: 300;
+    font-style: italic;
     margin: 0px;
 }
 
-.header-icon {
-    width: 10%;
-}*/
-
-.home-header {
-    background-image: url(./icons/cv-icon1.jpg);
-    background-color: #323F4F;
-    min-height: 15%; 
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin: 0px;
-}
-
-.header-icon {
-    width: 10%;
-}
-
-.title-header-section {
-    width: 80%;
+.menu-content-container {
+    min-height: 500px;
     height: 100%;
-    background-color: aqua;
-    float: right;
+    position: relative;
+}
+
+.menu-container {
+    background-color: #323F4F;
+    width: 20%;
+    min-height: 500px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.menu-element {
+    height: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    align-items: center;
+    line-height: 40px;
+    border-bottom: 1px solid white;
+}
+
+.menu-element-current {
+    height: 40px;
+    display: block;
+    background-color: white;
+    color: #323F4F;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    align-items: center;
+    line-height: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.menu-element:hover {
+    background-color: white;
+    color: #323F4F;
+}
+
+.content-container {
+    width: 80%;
+    min-height: 500px;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 20%;
+    text-align: center;
+}
+
+h3, h4 {
+    margin: 0px;
+}
+
+footer {
+    background-color: #323F4F;
+    min-height: 40px;
+    padding: 40px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 1px;
 }
