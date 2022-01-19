@@ -1,20 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap');
 
 /*
-
 font-family: 'Montserrat', sans-serif;
-
 */
+
+html {
+    height: 100%;
+}
 
 body {
     margin: 0px;
-    padding: 0px;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
+.main-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-areas: "header header"
+                         "menu content"
+                         "footer footer";
+    height: 100%;
+}
+
+.header-div {
     background-color: #323F4F;
-    min-height: 80px;
+    grid-area: header;
     padding: 80px;
     margin: 0px;
     color: white;
@@ -28,20 +40,11 @@ header {
     margin: 0px;
 }
 
-.menu-content-container {
-    min-height: 500px;
-    height: 100%;
-    position: relative;
-}
-
-.menu-container {
+.nav-menu-div {
     background-color: #323F4F;
-    width: 20%;
+    grid-area: menu;
     min-height: 500px;
     height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
     text-align: center;
 }
 
@@ -82,13 +85,9 @@ header {
     color: #323F4F;
 }
 
-.content-container {
-    width: 80%;
-    min-height: 500px;
-    height: 100%;
-    position: relative;
-    top: 0px;
-    left: 20%;
+.content-div {
+    background-color: yellow;
+    grid-area: content;
     text-align: center;
 }
 
@@ -96,11 +95,11 @@ h3, h4 {
     margin: 0px;
 }
 
-footer {
+.footer-div {
     background-color: #323F4F;
-    min-height: 40px;
+    grid-area: footer;
+    background-color: #323F4F;
     padding: 40px;
-    margin: 0px;
     color: white;
     text-align: center;
     position: relative;
