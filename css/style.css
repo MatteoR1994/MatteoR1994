@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap');
+
+/*
+
+font-family: 'Montserrat', sans-serif;
+
+Colori:
+        - Sfondo div: #323F4F
+        - Icone: #84AFE3
+        - Testo content div: #22436B
+
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-mobile-icon {
+    display: none; 
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-areas: "header header"
+                         "menu content"
+                         "footer footer";
+    height: 100%;
+}
+
+.header-div {
+    background-color: #323F4F;
+    grid-area: header;
+    padding: 80px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 4em;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+}
+
+.nav-menu-div {
+    background-color: #323F4F;
+    grid-area: menu;
+    min-height: 500px;
+    height: 100%;
+    text-align: center;
+}
+
+.menu-element {
+    height: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    align-items: center;
+    line-height: 40px;
+    border-bottom: 1px solid white;
+}
+
+.menu-element-current {
+    height: 40px;
+    display: block;
+    background-color: white;
+    color: #323F4F;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    align-items: center;
+    line-height: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.menu-element:hover {
+    background-color: white;
+    color: #323F4F;
+}
+
+.content-div {
+    background-color: white;
+    grid-area: content;
+    text-align: center;
+    color: #22436B;
+}
+
+.home-content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.home-content-photo {
+    /* background-color: palegreen; */
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.photo-container {
+    width: 261px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../icons/mia-foto.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* border: 1px solid black; */
+}
+
+.home-content-info {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid tomato; */
+}
+
+.study-name-vote {
+    width: 90%;
+    height: 90%;
+    border: 4px solid #84AFE3;
+    border-radius: 15px;
+}
+
+.study-name {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+.study-name h1 {
+    font-size: 50px;
+}
+
+.study-vote {
+    height: 50%;
+    /* border: 1px solid blue; */
+}
+
+.study-vote h2 {
+    font-size: 80px;
+    
+    display: inline-block;
+}
+
+.study-vote h4 {
+    font-size: 20px;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h6 {
+    margin: 0px;
+}
+
+.footer-div {
+    background-color: #323F4F;
+    grid-area: footer;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.footer-div a {
+    color: white;
+    font-style: italic;
+}

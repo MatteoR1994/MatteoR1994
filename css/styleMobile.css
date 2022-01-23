@@ -1,0 +1,60 @@
+@media (max-width: 480px) {
+    html {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0px;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr auto 3fr 1fr;
+        grid-template-areas: "header"
+                             "menu"
+                             "content"
+                             "footer";
+        height: 100%;
+    }
+    .header-div {
+        background-color: #323F4F;
+        grid-area: header;
+        padding: 40px;
+        margin: 0px;
+        color: white;
+        text-align: center;
+    }
+    .menu-mobile-icon {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 30px;
+    }
+    .header-title {
+        font-size: 2em;
+        font-weight: 300;
+        font-style: italic;
+        margin: 0px;
+    }
+    .nav-menu-div {
+        display: none;
+    }
+    .menu-element {
+        margin-right: 20px;
+    }
+    .menu-element-current {
+        margin-right: 20px;
+    }
+    .footer-div {
+        background-color: #323F4F;
+        grid-area: footer;
+        padding: 30px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 1px;
+    }
+}
