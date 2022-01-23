@@ -10,7 +10,7 @@
     }
     .main-container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         grid-template-rows: 2fr auto 3fr 1fr;
         grid-template-areas: "header"
                              "menu"
