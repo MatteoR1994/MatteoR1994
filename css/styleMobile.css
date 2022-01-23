@@ -26,6 +26,9 @@
         color: white;
         text-align: center;
     }
+    .header-subtitle {
+        font-size: 0.9em;
+    }
     .menu-mobile-icon {
         display: inline-block;
         position: absolute;
@@ -47,6 +50,39 @@
     }
     .menu-element-current {
         margin-right: 20px;
+    }
+    .home-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .study-name h1 {
+        font-size: 2em;
+    }
+    .study-vote h2 {
+        font-size: 40px;
+        
+        display: inline-block;
+    }
+    
+    .study-vote h4 {
+        font-size: 15px;
+        display: inline-block;
+    }
+    .study-name-vote {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .home-content-photo {
+        width: 80%;
+    }
+    .home-content-info {
+        width: 90%;
+    }
+    h6 {
+        margin-bottom: 20px;
     }
     .footer-div {
         background-color: #323F4F;
