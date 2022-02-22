@@ -1,43 +1,104 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang='it'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./icons/cv-icon-transparent.png" type="image/x-icon">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='shortcut icon' href='./icons/cv-icon-transparent.png' type='image/x-icon'>
     <title>Curriculum Matteo Rinaldi</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/styleMobile.css">
-    <script src="script.js"></script>
+    <link rel='stylesheet' href='./css/style.css'>
+    <link rel='stylesheet' href='./css/styleMobile.css'>
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="header-div">
-            <h1 class="header-title">Matteo Rinaldi</h1>
-            <h2 class="header-subtitle">Curriculum Vitae</h2>
+    <div class='main-container'>
+        <div class='header-div'>
+            <h1 class='header-title'>Matteo Rinaldi</h1>
+            <h2 class='header-subtitle'>Curriculum Vitae</h2>
             <h4>DATI ANAGRAFICi</h4>
         </div>
-        <img class="menu-mobile-icon" src="./icons/best-icons/bars-solid.svg" onclick="myFunction();" alt="">
-        <div id="nav-menu-div" class="nav-menu-div">
-            <a class="menu-element" href="index.html">HOME</a>
-            <a class="menu-element-current" href="datiAnagrafici.html">DATI ANAGRAFICI</a>
-            <a class="menu-element" href="studiScolastici.html">STUDI SCOLASTICI</a>
-            <a class="menu-element" href="esperienzeProfessionali.html">ESPERIENZE PROFESSIONALI</a>
-            <a class="menu-element" href="linguePatentialtro.html">LINGUE, PATENTI, ALTRO</a>
+        <img class='menu-mobile-icon' src='./icons/best-icons/bars-solid.svg' onclick='myFunction();' alt=''>
+        <div id='nav-menu-div' class='nav-menu-div'>
+            <a class='menu-element' href='index.html'>HOME</a>
+            <a class='menu-element-current' href='datiAnagrafici.html'>DATI ANAGRAFICI</a>
+            <a class='menu-element' href='studiScolastici.html'>STUDI SCOLASTICI</a>
+            <a class='menu-element' href='esperienzeProfessionali.html'>ESPERIENZE PROFESSIONALI</a>
+            <a class='menu-element' href='linguePatentialtro.html'>LINGUE, PATENTI, ALTRO</a>
         </div>
-        <div class="content-div">
-            <h3><u>Dati anagrafici</u><br>sezione in costruzione</h3>
-            <img width="60" src="./icons/user-icon.jpg" alt="Immagine per nome persona"> Matteo Rinaldi<br><br>
-            <img width="60" src="./icons/calendar-icon.png" alt="Immagine per data di nascita utente"> 04/03/1994<br><br>
-            <img width="60" src="./icons/phone-icon.jpg" alt="Immagine per numero di telefono utente"> 3496245067<br><br>
-            <img width="60" src="./icons/mail-icon.png" alt="Immagine per email utente"> matteo.rinaldi1893@gmail.com<br><br>
-            <img width="60" src="./icons/address-icon.jpg" alt="Immagine per indirizzo utente">Via Mansueto 12B/21, 16159, Genova, GE<br><br>
-            <img width="60" src="./icons/gender-icon.jpg" alt="Immagine per genere utente">Maschio<br><br>
-            <img width="60" src="./icons/nationality-icon.jpg" alt="Immagine per nazionalità utente">Italiana
+        <div class='content-div'>
+            <div id='content-flex' class='content-flex'>
+                <table class='anagraph-data' cellspacing='0'>
+                    <tr>
+                        <td colspan='1'>
+                            <div id='data-item' class='data-item'>
+                                <div id='icon-div' class='icon-div'>
+                                    <img id='icon-img' class='icon-img' src='./icons/best-icons/phone-alt-solid.svg' alt='Logo'>
+                                </div>
+                                <div id='data-div' class='data-div'>
+                                    <span id='data-text' class='data-text'>349 6245067</span> 
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan='2'>
+                            <div id='data-item' class='data-item'>
+                                <div id='icon-div' class='icon-div'>
+                                    <img id='icon-img' class='icon-img' src='./icons/best-icons/envelope-solid.svg' alt='Logo'>
+                                </div>
+                                <div id='data-div' class='data-div'>
+                                    <span id='data-text' class='data-text'><a class='mail-contact-link' href='mailto:matteo.rinaldi1893@gmail.com'>matteo.rinaldi1893@gmail.com</a></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan='3'>
+                            <div id='data-item' class='data-item'>
+                                <div id='icon-div' class='icon-div'>
+                                    <img id='icon-img' class='icon-img' src='./icons/best-icons/map-marker-alt-solid.svg' alt='Logo'>
+                                </div>
+                                <div id='data-div' class='data-div'>
+                                    <span id='data-text' class='data-text'>Via Mansueto 12B/21, 16159, Genova, GE</span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id='data-item' class='data-item'>
+                                <div id='icon-div' class='icon-div'>
+                                    <img id='icon-img' class='icon-img' src='./icons/best-icons/calendar-alt-regular.svg' alt='Logo'>
+                                </div>
+                                <div id='data-div' class='data-div'>
+                                    <span id='data-text' class='data-text'>04/03/1994</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div id='data-item' class='data-item'>
+                                <div id='icon-div' class='icon-div'>
+                                    <img id='icon-img' class='icon-img' src='./icons/best-icons/venus-mars-solid.svg' alt='Logo'>
+                                </div>
+                                <div id='data-div' class='data-div'>
+                                    <span id='data-text' class='data-text'>Maschio</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div id='data-item' class='data-item'>
+                                <div id='icon-div' class='icon-div'>
+                                    <img id='icon-img' class='icon-img' src='./icons/best-icons/globe-europe-solid.svg' alt='Logo'>
+                                </div>
+                                <div id='data-div' class='data-div'>
+                                    <span id='data-text' class='data-text'>Italiana</span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div class="footer-div">
+        <div class='footer-div'>
             <p>
                 2022 - in corso
             </p>
@@ -48,12 +109,101 @@
             <p>
                 <h6>
                     Autorizzo il trattamento dei miei dati personali ai sensi del 
-                    <a href="https://web.camera.it/parlam/leggi/deleghe/03196dl.htm" target="_blank">Decreto Legislativo 30 giugno 2003, n. 196</a>
-                    "Codice in materia di protezione dei dati personali".
+                    <a href='https://web.camera.it/parlam/leggi/deleghe/03196dl.htm' target='_blank'>Decreto Legislativo 30 giugno 2003, n. 196</a>
+                    'Codice in materia di protezione dei dati personali'.
                 </h6>
             </p>
         </div>
     </div>
 </body>
+<script src='script.js'></script>
+<script>
+    function refactorAnagraphHtml(x) {
+        const container = document.getElementById('content-flex');
 
+        if (x.matches) { // If media query matches
+
+            const anagraphDatas = [{
+                    text: '349 6245067',
+                    icon: './icons/best-icons/phone-alt-solid.svg'
+                    },
+                    {
+                    text: 'matteo.rinaldi1893@gmail.com',
+                    icon: './icons/best-icons/envelope-solid.svg'
+                    },
+                    {
+                    text: 'Via Mansueto 12B/21, 16159, Genova, GE',
+                    icon: './icons/best-icons/map-marker-alt-solid.svg'
+                    },
+                    {
+                    text: '04/03/1994',
+                    icon: './icons/best-icons/calendar-alt-regular.svg'
+                    },
+                    {
+                    text: 'Maschio',
+                    icon: './icons/best-icons/venus-mars-solid.svg'
+                    },
+                    {
+                    text: 'Italiana',
+                    icon: './icons/best-icons/globe-europe-solid.svg'
+                    }];
+
+            container.innerHTML = '';
+            // const table = document.createElement('table');
+            // table.className += 'content-flex ';
+
+            // const itemDiv = document.createElement('div');
+            // itemDiv.className += 'data-item ';
+
+            // const iconDiv = document.createElement('div');
+            // iconDiv.className += 'icon-div ';
+
+            // const dataDiv = document.createElement('div');
+            // dataDiv.className += 'data-div ';
+
+            // const imgIcon = document.createElement('img');
+            // imgIcon.className += 'icon-img ';
+
+            // const dataText = document.createElement('span');
+            // dataText.className += 'data-text ';
+
+            for (const data of anagraphDatas) {
+                const itemDiv = document.createElement('div');
+            itemDiv.className += 'data-item ';
+
+            const iconDiv = document.createElement('div');
+            iconDiv.className += 'icon-div ';
+
+            const dataDiv = document.createElement('div');
+            dataDiv.className += 'data-div ';
+
+            const imgIcon = document.createElement('img');
+            imgIcon.className += 'icon-img ';
+
+            const dataText = document.createElement('span');
+            dataText.className += 'data-text ';
+
+                imgIcon.src = data.icon;
+                iconDiv.appendChild(imgIcon);
+
+                dataText.appendChild(document.createTextNode(data.text));
+                dataDiv.appendChild(dataText);
+
+                itemDiv.appendChild(iconDiv);
+                itemDiv.appendChild(dataDiv);
+
+                container.appendChild(itemDiv);
+                container.appendChild(document.createElement('br'));
+            }
+
+            //container.appendChild(table);
+        } else {
+            container.appendChild(document.createTextNode('problemi'));
+        }
+    }
+
+    const x = window.matchMedia('(max-width: 480px)');
+    refactorAnagraphHtml(x);
+    x.addListener(refactorAnagraphHtml);
+</script>
 </html>
