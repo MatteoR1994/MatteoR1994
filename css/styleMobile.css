@@ -7,6 +7,8 @@
         margin: 0px;
         height: 100%;
         font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
     }
     .main-container {
         display: grid;
@@ -51,19 +53,38 @@
     .menu-element-current {
         margin-right: 20px;
     }
+    .content-div {
+        grid-area: content;
+    }
     .home-content-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     .content-flex {
-        width: 100%;
         height: 100%;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        background-color: aquamarine;
+        margin-top: 20px;
     }
+    .data-item {
+        width: 90%;
+        min-width: 100px;
+    }
+    .icon-div {
+        width: 10%;
+    }
+    .icon-div img {
+        width: 30px;
+    }
+    .data-div {
+        width: 50%;
+    }
+
+    .data-text {
+        font-size: 1.5vmax;
+    }
+
     .study-name h1 {
         font-size: 2em;
     }
