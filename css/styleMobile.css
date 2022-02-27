@@ -4,11 +4,8 @@
     }
     
     body {
-        margin: 0px;
         height: 100%;
         font-family: 'Montserrat', sans-serif;
-        display: flex;
-        justify-content: center;
     }
     .main-container {
         display: grid;
@@ -55,34 +52,13 @@
     }
     .content-div {
         grid-area: content;
+        height: 100%;
     }
     .home-content-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .content-flex {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-    .data-item {
-        width: 90%;
-        min-width: 100px;
-    }
-    .icon-div {
-        width: 10%;
-    }
-    .icon-div img {
-        width: 30px;
-    }
-    .data-div {
-        width: 50%;
-    }
-
-    .data-text {
-        font-size: 1.5vmax;
+        align-items: center;
     }
 
     .study-name h1 {
@@ -99,13 +75,15 @@
         display: inline-block;
     }
     .study-name-vote {
-        width: 100%;
         height: auto;
         margin-top: 30px;
         margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .home-content-photo {
         width: 80%;
+        margin-top: 30px;
     }
     .home-content-info {
         width: 90%;
