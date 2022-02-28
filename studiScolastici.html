@@ -9,7 +9,10 @@
     <title>Curriculum Matteo Rinaldi</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/styleMobile.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./css/styleAnagrafica.css">
+    <link rel="stylesheet" href="./css/styleMobileAnagrafica.css">
+    <link rel="stylesheet" href="./css/styleScuolaFormazione.css">
+    <link rel="stylesheet" href="./css/styleMobileScuolaFormazione.css">
 </head>
 
 <body>
@@ -17,45 +20,143 @@
         <div class="header-div">
             <h1 class="header-title">Matteo Rinaldi</h1>
             <h2 class="header-subtitle">Curriculum Vitae</h2>
-            <h4>STUDI SCOLASTICI</h4>
+            <h4>SCUOLA E FORMAZIONE</h4>
         </div>
         <img class="menu-mobile-icon" src="./icons/best-icons/bars-solid.svg" onclick="myFunction();" alt="">
         <div id="nav-menu-div" class="nav-menu-div">
             <a class="menu-element" href="index.html">HOME</a>
             <a class="menu-element" href="datiAnagrafici.html">DATI ANAGRAFICI</a>
-            <a class="menu-element-current" href="studiScolastici.html">STUDI SCOLASTICI</a>
+            <a class="menu-element-current" href="studiScolastici.html">SCUOLA E FORMAZIONE</a>
             <a class="menu-element" href="esperienzeProfessionali.html">ESPERIENZE PROFESSIONALI</a>
             <a class="menu-element" href="linguePatentialtro.html">LINGUE, PATENTI, ALTRO</a>
+            <a class="menu-element" href="allegati.html">ALLEGATI</a>
+            <a class="menu-element" href="githubProjects.html">GITHUB PROJECTS</a>
         </div>
-        <div class="content-div">
-            <h3><u>Studi scolastici</u><br>sezione in costruzione</h3>
-            <ol>
-                <li>
-                    <h2>Diploma di Scuola Secondaria di II grado, dal 2008 al 2013</h2>
-                    <h4>IIS Italo Calvino, indirizzo elettronico ed elettrotecnico/indirizzo informatico e 
-                        telecomunicazioni/indirizzo scientifico , Via Borzoli 21, Genova.  - <a href="https://calvino.ge.it/" target="_blank">Vai al sito della scuola</a></h4>
+        <div class="content2-div">
+            <div class="study-container">
+                <div class="icon-study-container">
+                    <img width="40" height="40" src="./icons/best-icons/school-solid.svg" alt="">
+                </div>
+                <div class="details-study-container">
+                    <span class="study-section-name">Diploma di scuola superiore</span> - <span class="study-section-name-final-vote">(voto finale, 87 / 100)</span><br><br>
+                    <span class="study-school-name">IIS Italo Calvino, indirizzo elettronico ed elettrotecnico/indirizzo informatico e 
+                        telecomunicazioni/indirizzo scientifico.<br>Via Borzoli 21, Genova.  - <a href="https://calvino.ge.it/" target="_blank">Vai al sito della scuola</a>
+                    </span>
                     <ul>
-                        <li><strong>INFORMATICA:</strong> Abilità scolastica nella programmazione linguaggio C++ (esercizi molto semplici), 
+                        <li class="study-li-element">
+                            <span class="study-li-element-span">INFORMATICA:</span><br>Abilità scolastica nella programmazione linguaggio C++ (esercizi molto semplici), 
                             HTML/PHP, SQL, KOTLIN e ANDROID (entrambi a livello introduttivo).
-                            </li>
-                        <li><strong>ELETTRONICA:</strong> Buone conoscenze base elettronica ed elettrotecnica, amplificatore operazionale
+                        </li>
+                        <li class="study-li-element">
+                            <span class="study-li-element-span">ELETTRONICA:</span><br>Buone conoscenze base elettronica ed elettrotecnica, amplificatore operazionale
                             e sue applicazioni, classificazione dei filtri (attivi e passivi) con relativo studio circuitale<br> e funzioni di 
                             trasferimento, grafici vettoriali e di Bode, numeri complessi e modulazioni analogiche (AM – DSB - 
                             TC/SC), impulsive (PAM, cenni sulla PWM e PPM), numeriche (ASK,FSK,PSK<br> con conoscenza 
                             spettri e grafici in scala naturale), modulazione digitale PCM e TDM, multiplazione FDM/TDM, 
                             generalità sui modem fonici, generalità sulla propagazione guidata (fibre ottiche<br> e cavi metallici) e nel
                             canale Hertziano. Buone abilità nell'utilizzo del del programma PROTEUS (Isis) per la progettazione 
-                            di circuiti virtuali.</li>
-                        <li> 
-                            <strong>SISTEMI:</strong> Conoscenze scolastiche su funzionamento sistema operativo in tutte le sue parti e 
+                            di circuiti virtuali.
+                        </li>
+                        <li class="study-li-element"> 
+                            <span class="study-li-element-span">SISTEMI:</span><br>Conoscenze scolastiche su funzionamento sistema operativo in tutte le sue parti e 
                             conoscenza scolastica delle reti e la loro composizione, tipologie e come proteggerle, conoscenza 
-                            del modello ISO/OSI.</li>
-                        <li><strong>STATISTICA:</strong> Buona conoscenza dell'inferenza statistica e della ricerca operativa, quindi 
+                            del modello ISO/OSI.
+                        </li>
+                        <li class="study-li-element">
+                            <span class="study-li-element-span">STATISTICA:</span><br>Buona conoscenza dell'inferenza statistica e della ricerca operativa, quindi 
                             programmazione lineare con problemi a due o tre variabili, metodo grafico, algebrico e del 
-                            simplesso.</li>
+                            simplesso.
+                        </li>
                     </ul>
-                </li>
-            </ol>
+                </div>
+            </div>
+            <div class="study-container">
+                <div class="icon-study-container">
+                    <img width="40" height="40" src="./icons/best-icons/school-solid.svg" alt="">
+                </div>
+                <div class="details-study-container">
+                    <span class="study-section-name">Corso “Sviluppo mobile app con Android”</span><br><br>
+                    <span class="study-school-name">F.IRE scrl<br>Piazza Giacomo Matteotti, 2/3b
+                        16123 Genova. - <a href="https://entefire.it/fire/" target="_blank">Vai al sito dell'ente</a>
+                    </span>
+                    <ul>
+                        <li class="study-li-element">
+                            Studio introduttivo del linguaggio di programmazione KOTLIN.
+                        </li>
+                        <li class="study-li-element">
+                            Utilizzo del linguaggio sopra indicato per la creazione di applicazioni Android.
+                        </li>
+                        <li class="study-li-element"> 
+                            Introduzione ai servizi REST, costruiti con Spring Boot, IntelliJ IDEA, Hibernate, Android Studio,
+                            Workbench, Docker, Postman e linguaggi KOTLIN e SQL. Progettazione e sviluppo di una piccola
+                            applicazione per testare un servizio.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="study-container">
+                <div class="icon-study-container">
+                    <img width="40" height="40" src="./icons/best-icons/school-solid.svg" alt="">
+                </div>
+                <div class="details-study-container">
+                    <span class="study-section-name">CORSO "SVILUPPATORE FRONT END"</span><br><br>
+                    <span class="study-school-name">Axía Formazione & Consulenza S.r.l.<br>Via XX Settembre, 41/piano 3, Genova. - <a href="https://www.axiaformazione.it/" target="_blank">Vai al sito dell'ente</a>
+                    </span>
+                    <ul>
+                        <li class="study-li-element">
+                            <span class="study-li-element-span">STRUMENTI DI BASE:</span><br>
+                            <ul style="margin-top: 10px;">
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">HTML, CSS e SCSS</span>
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Introduzione alla Programmazione con JavaScript:</span><br>
+                                    Variabili, tipi e operatori; Struttura di un
+                                    programma; Le funzioni; Strutture di dati; Funzioni di ordine superiore; Programmazione ad oggetti;
+                                    Gestione degli errori; Espressioni Regolari; Moduli; DOM; Gestire gli errori; HTTP and Forms; Node.js;
+                                    SQL; API REST; JWT.
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Bootstrap</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="study-li-element">
+                            <span class="study-li-element-span">SPA con Angular:</span><br>
+                            <ul style="margin-top: 10px;">
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Introduzione a Typescript:</span><br>
+                                    Tipizzazione; Classi, interfacce e decoratori.
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Componenti:</span><br>
+                                    Ciclo di vita di un componente; Inputs e Outputs; Comunicazione tra i componenti;
+                                    Componenti dinamici.
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Dependency Injection e servizi:</span><br>
+                                    HttpClient service
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Routing:</span><br>
+                                    Definizioni e parametri delle route; Route guards; Lazy loading.
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Forms:</span><br>
+                                    Template-driven forms; Reactive forms.
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">Rxjs:</span><br>
+                                    Observable; Funzioni; Operatori; Subjects.
+                                </li>
+                                <li class="study-li-element">
+                                    <span class="study-li-element-span">NgRx</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="footer-div">
             <p>
@@ -75,5 +176,5 @@
         </div>
     </div>
 </body>
-
+<script src="script.js"></script>
 </html>

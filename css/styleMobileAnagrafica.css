@@ -1,0 +1,25 @@
+@media (max-width: 480px) {
+    .content-flex {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .data-item {
+        width: 90%;
+        min-width: 100px;
+    }
+    .icon-div {
+        width: 20%;
+    }
+    .icon-div img {
+        width: 90%;
+    }
+    .data-div {
+        width: 70%;
+    }
+
+    .data-text {
+        font-size: 2vmax;
+    }
+}

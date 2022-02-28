@@ -1,0 +1,67 @@
+.content2-div {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.study-container {
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: flex-start;
+    border-bottom: 1px solid #84AFE3;
+}
+
+.icon-study-container {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: #C8E2FD;
+}
+
+.details-study-container {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.study-section-name {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0;
+    color: #323F4F;
+    font-weight: bold;
+}
+
+.study-section-name-final-vote {
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 0;
+    color: #323F4F;
+    font-weight: 600;
+}
+
+.study-school-name {
+    color: #323F4F;
+}
+
+.study-li-element {
+    list-style-type: circle;
+    color: #323F4F;
+    margin-bottom: 20px;
+}
+
+.study-li-element-span {
+    color: #323F4F;
+    font-weight: bold;
+}

@@ -28,11 +28,14 @@ body {
 .main-container {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows: 2fr 3fr 1fr;
+    /* grid-template-rows: 2fr 3fr 1fr; */
+    /* grid-template-rows: 25% 3fr 1fr; */
+    /* grid-template-rows: 25% 65% 10%; */
+    grid-template-rows: 320px 3fr 220px;
     grid-template-areas: "header header"
                          "menu content"
                          "footer footer";
-    height: 100%;
+    min-height: 100%;
 }
 
 .header-div {
@@ -64,8 +67,8 @@ body {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 0px;
@@ -80,8 +83,8 @@ body {
     background-color: white;
     color: #323F4F;
     text-decoration: none;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 0px;
@@ -101,6 +104,10 @@ body {
     grid-area: content;
     text-align: center;
     color: #22436B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-content-container {
@@ -108,7 +115,6 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     /* background-color: orange; */
 }
 

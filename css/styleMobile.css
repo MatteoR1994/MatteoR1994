@@ -4,18 +4,21 @@
     }
     
     body {
+        margin: 0px;
         height: 100%;
         font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
     }
     .main-container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 2fr auto 3fr 1fr;
+        grid-template-rows: 25% auto 3fr 1fr;
         grid-template-areas: "header"
                              "menu"
                              "content"
                              "footer";
-        height: 100%;
+        min-height: 100%;
     }
     .header-div {
         background-color: #323F4F;
@@ -43,6 +46,9 @@
     }
     .nav-menu-div {
         display: none;
+        grid-area: menu;
+        min-height: 570px;
+        height: 100%;
     }
     .menu-element {
         margin-right: 20px;
@@ -52,13 +58,11 @@
     }
     .content-div {
         grid-area: content;
-        height: 100%;
     }
     .home-content-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
     .study-name h1 {
@@ -75,15 +79,13 @@
         display: inline-block;
     }
     .study-name-vote {
+        width: 100%;
         height: auto;
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-left: auto;
-        margin-right: auto;
     }
     .home-content-photo {
         width: 80%;
-        margin-top: 30px;
     }
     .home-content-info {
         width: 90%;
