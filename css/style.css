@@ -185,7 +185,7 @@ h1, h2, h3, h4, h6 {
 .footer-div {
     background-color: #323F4F;
     grid-area: footer;
-    padding: 40px;
+    padding: 20px;
     color: white;
     text-align: center;
     position: relative;

@@ -1,0 +1,23 @@
+.language-section-name {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0;
+    color: #323F4F;
+    font-weight: bold;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table, thead, tbody, tr, td {
+	border: 1px solid #000000;
+}
+
+.theade-main-subtitle {
+    font-size: 0.9em;
+}

@@ -35,6 +35,18 @@
     text-align: justify;
 }
 
+.details-study-container a {
+    text-decoration: none;
+}
+
+.details-study-container a:hover {
+    text-decoration: underline;
+}
+
+.details-study-container a:visited {
+    color: blue;
+}
+
 .study-section-name {
     display: inline-block;
     font-size: 1.5em;
@@ -53,6 +65,11 @@
 
 .study-school-name {
     color: #323F4F;
+    font-weight: bold;
+}
+
+.study-school-name-address {
+    font-style: italic;
 }
 
 .study-li-element {
