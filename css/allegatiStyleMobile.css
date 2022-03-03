@@ -1,0 +1,28 @@
+@media (max-width: 480px) {
+    .content3-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 350px;
+    }
+
+    .download-element-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        padding: 10px;
+        border: 2px solid #84AFE3;
+        border-radius: 4px;
+        color: #12509C;
+        font-size: x-small;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .download-element-link {
+        margin-top: 20px;
+    }
+}

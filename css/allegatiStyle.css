@@ -1,0 +1,25 @@
+.content3-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download-element-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+    border: 2px solid #84AFE3;
+    border-radius: 4px;
+    color: #12509C;
+    font-weight: bold;
+    font-style: italic;
+    /* margin-bottom: 15px; */
+}
+
+.download-element-link {
+    margin-top: 20px;
+}

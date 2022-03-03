@@ -1,0 +1,11 @@
+@media (max-width: 480px) {
+    table {
+        max-width: 400px;
+        margin: auto;
+        font-size: x-small;
+    }
+
+    .content-div {
+        grid-area: content;
+    }
+}

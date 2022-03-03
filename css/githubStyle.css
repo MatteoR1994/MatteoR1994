@@ -1,0 +1,64 @@
+.content4-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-container {
+    width: 95%;
+}
+
+.github-logo-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 120px;
+    border-bottom: 1px solid #323F4F;
+}
+
+.github-logo-div a {
+    color: #323F4F;
+    text-decoration: none;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.github-logo-div a:hover {
+    text-decoration: underline;
+}
+
+.github-training-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: flex-start;
+    min-height: 40%;
+    border-bottom: 1px solid #323F4F;
+    margin-top: 20px;
+    color: #323F4F;
+}
+
+.github-personal-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: flex-start;
+    min-height: 40%;
+    border-bottom: 1px solid #323F4F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #323F4F;
+}
+
+.github-personal-div a {
+    color: #323F4F;
+    text-decoration: none;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.github-personal-div a:hover {
+    text-decoration: underline;
+}
